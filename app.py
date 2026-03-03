@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "OK - Version 1"
+    return "OK - Version 2 🚀"
 
 @app.route("/health")
 def health():
